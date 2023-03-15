@@ -1,4 +1,4 @@
-baseURL: https://ilirium.github.io
+baseURL: https://ilirium.github.io/
 languageCode: en-us
 title: Ilya Kalimulin (Ilirium) personal blog
 copyright: © 2023–∞ Ilya Kalimulin (Ilirium)
@@ -7,7 +7,7 @@ theme: minima
 # paginate specifies the maximum number of posts displayed on the home page.
 paginate: 12
 
-# author specifies your name, a slogon and your brief self-introduction.
+# author specifies your name, a slogan and your brief self-introduction.
 author:
   name: Ilya Kalimulin (Ilirium)
   #status: Hi, WASM
@@ -67,8 +67,17 @@ params:
 # menu.main is an array containing what is used as the navigator.
 menu:
   main:
-    - identifies: about
+    - name: "Main"
+      url: "/"
+      weight: 1
+    - identifier: hire-me
+      name: "Hire me"
+      url: "/hire-me/"
+      weight: 2
+    - identifier: about
       name: "About"
+      url: "/about/"
+      weight: 3
 #    - identifier: tags
 #      name: "Tags"
 #      weight: 2

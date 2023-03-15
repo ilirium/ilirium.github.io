@@ -2,7 +2,6 @@
 title: "Hello blog"
 description: "Why I started this"
 date: 2023-03-15T10:11:19-03:00
-draft: true
 ---
 
 Hi, bits, bytes, and alives! I decided to start blogging. From time to time, I write some notes and thoughts or share
