@@ -1,0 +1,91 @@
+baseURL: https://ilirium.github.io
+languageCode: en-us
+title: Ilya Kalimulin (Ilirium) personal blog
+copyright: © 2023 Ilya Kalimulin (Ilirium)
+theme: minima
+
+# paginate specifies the maximum number of posts displayed on the home page.
+paginate: 12
+
+# author specifies your name, a slogon and your brief self-introduction.
+author:
+  name: Ilya Kalimulin (Ilirium)
+  #status: Hi, WASM
+  description: |
+    12+ years in tech and analytics, of which 4+ is working as a data scientist
+    
+    🪪 Data Scientists with solid software engineering skills
+    
+    🧑🏻‍🔬 Machine & deep learning
+    
+    🔮 Computer vision, satellite images, IoT, geospatial, climate
+    
+    📮 https://www.linkedin.com/in/ilirium/
+
+params:
+  # greet specifies greeting words.
+  greet: Ilya Kalimulin (Ilirium)
+  # subtitle speficies a subtitle displayed right after the site title.
+  subtitle:
+  # switch specifies two emojis to be used as the button toggling color themes.
+  switch: ["🌚", "🌝"]
+  # defaultTheme specifies a default theme to be used.
+  # currently available options: light, dark, system.
+  defaultTheme: system
+  # displayDate speficies whether or not to display post date on the home page.
+  displayDate: true
+  # displayDescription specifies whether or not to display post description on
+  # the home page.
+  displayDescription: true
+  # selectable specifies if your post content can be selected.
+  selectable: true
+  # social is an array containing as many as social accounts to be displayed
+  # in the buttom of every page.
+  social:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/ilirium/"
+    - name: "github"
+      url: "https://github.com/ilirium"
+    - name: "rss"
+      url: "/index.xml"
+
+  # math plugin
+  math:
+    enable: false
+    provider: katex
+
+  # diagram plugin
+  diagram:
+    enable: false
+    provider: mermaid
+
+  # comment plugin
+  comment:
+    enable: false
+
+
+# menu.main is an array containing what is used as the navigator.
+menu:
+  main:
+    - identifies: about
+      name: "About"
+#    - identifier: tags
+#      name: "Tags"
+#      weight: 2
+#    - identifier: series
+#      name: "Series"
+#      weight: 3
+
+# taxonomies defines ways to classify you posts. Below are some presets that
+# most bloggers use, so you can replace them with whatever you like.
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+# markup.highlight has two keys set to make sure that the syntax highlighting
+# in your posts are rendered correctly, so do not edit them.
+markup:
+  highlight:
+    lineNos: true
+    noClasses: false
