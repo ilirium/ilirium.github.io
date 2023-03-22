@@ -82,6 +82,10 @@ menu:
       name: "About"
       url: "/about/"
       weight: 3
+    - identifier: wasm-demo
+      name: "WASM Simple Demo"
+      url: https://ilirium.github.io/rust_hello_wasm/
+      weight: 4
 #    - identifier: tags
 #      name: "Tags"
 #      weight: 2
