@@ -63,6 +63,10 @@ params:
   comment:
     enable: false
 
+  # Main section
+  mainSections:
+    - posts
+
 
 # menu.main is an array containing what is used as the navigator.
 menu:
