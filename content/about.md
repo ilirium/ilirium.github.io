@@ -6,9 +6,9 @@ date: 2023-03-15T12:35:17-03:00
 
 Hi, I am Ilya Kalimulin. My nickname is Ilirium. It is my personal blog. Currently, my family and I are living in
 🇧🇷Brazil (UTC-3). My wife and I have 2 brilliant small kids. Before Brazil, we had the experience of living in 🇮🇳India
-(Goa), 🇪🇺European Union (🇱🇻Latvia), and 🇹🇷Turkey. Originally, we were from Russia. I completed my Ph.D. degree in 2014
-in the edge of microwave engineering and electronic design automation. Once I gave an
-[oral speech](https://ieeexplore.ieee.org/document/7347123) at a scientific conference in San Jose (California, USA).
+(Goa), 🇪🇺European Union (🇱🇻Latvia), and 🇹🇷Turkey. I completed my Ph.D. degree in 2014 in the edge of microwave
+engineering and electronic design automation. Once I gave an [oral speech](https://ieeexplore.ieee.org/document/7347123)
+at a scientific conference in San Jose (California, USA).
 
 I have 12+ years in tech and analytics, of which 4+ years are working as a Data Scientist. From my experience, I am
 attracted to working with raster data stored in multidimensional arrays, like images and videos. I use digital filters,
