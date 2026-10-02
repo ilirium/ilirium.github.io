@@ -32,3 +32,11 @@ The theme lives in the `themes/minima` submodule and `hugo` fails without it, so
 ## Deploy
 
 `.github/workflows/hugo.yml` builds and deploys to GitHub Pages on every push to `main` (or manual dispatch). It pins `HUGO_VERSION: 0.111.3` (extended — the version the README names for local work too), checks out submodules recursively, and runs `hugo --gc --minify --baseURL "<pages base_url>/"` — the `--baseURL` flag overrides `baseURL` in `config.yaml`, so the custom domain is configured in the GitHub Pages settings rather than in a `CNAME` file here. Keep local Hugo close to 0.111.3 to avoid build drift.
+
+## Notes
+
+Investigation write-ups live in `aingineering/notes/`, named `NOTE-NNNN-<slug>.md` with a
+zero-padded sequential ID (`NOTE-0001-dart-sass-in-ci.md`). The ID is repeated in the file's H1
+so a note read on its own still identifies itself. Pick the next unused number and add a row to
+`aingineering/notes/README.md`, the index. These are outside `content/`, so Hugo does not
+publish them.
