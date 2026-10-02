@@ -1,3 +1,6 @@
+git_submodules_update:
+	git submodule update --init --recursive
+
 dev_server:
 	hugo server
 
