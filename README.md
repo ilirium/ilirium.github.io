@@ -2,7 +2,9 @@
 
 Ilirium's (Ilya Kalimulin) personal blog
 
-Blog's URL: https://ilirium.github.io/
+The main blog URL: https://ilirium.net/ 
+
+GitHub Pages URL: https://ilirium.github.io/
 
 Repo: https://github.com/ilirium/ilirium.github.io
 
