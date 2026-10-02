@@ -7,24 +7,9 @@ theme: minima
 # paginate specifies the maximum number of posts displayed on the home page.
 paginate: 12
 
-# author specifies your name, a slogan and your brief self-introduction.
-author:
-  name: Ilya Kalimulin (Ilirium)
-  #status: Hi, WASM
-  description: |
-    12+ years in tech and analytics, of which 4+ is working as a data scientist
-    
-    🪪 Data Scientists with solid software engineering skills
-    
-    🧑🏻‍🔬 Machine & deep learning
-    
-    🔮 Computer vision, satellite images, IoT, geospatial, climate
-    
-    📮 https://www.linkedin.com/in/ilirium/
-
 params:
   # greet specifies greeting words.
-  greet: Ilya Kalimulin (Ilirium)
+  greet: Hey! I'm Dr. Ilya Kalimulin
   # subtitle speficies a subtitle displayed right after the site title.
   subtitle:
   # switch specifies two emojis to be used as the button toggling color themes.
@@ -41,6 +26,24 @@ params:
   selectable: true
   # social is an array containing as many as social accounts to be displayed
   # in the buttom of every page.
+
+  # author specifies your name, a slogan and your brief self-introduction.
+  author:
+    name: Ilya Kalimulin (Ilirium)
+    avatar: https://avatars.githubusercontent.com/u/3838929?v=4
+    status: I'm open to work :)
+    description: |
+      🧑🏻‍🔬 Senior Machine Learning Engineer 8yrs, Computer Vision, Data Science.
+      
+      🪪 Solid software engineering skills, Ph.D. in electronic engineering,
+      3 years as a research fellow before that, co-founded a startup back then.
+      
+      🔮 LLM, photos, satellite images, IoT, geospatial, weather.
+      
+      📮 https://www.linkedin.com/in/ilirium/
+      
+      👉 https://github.com/ilirium
+
   social:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/ilirium/"
@@ -84,7 +87,7 @@ menu:
       weight: 3
     - identifier: wasm-demo
       name: "Demo: wasm_simple"
-      url: https://ilirium.github.io/rust_hello_wasm/
+      url: https://ilirium.net/rust_hello_wasm/
       weight: 4
       params:
         targetBlank: true
