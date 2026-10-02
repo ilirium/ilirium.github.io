@@ -1,5 +1,10 @@
+HUGO   ?= hugo@v0.111.3
+
 git_submodules_update:
 	git submodule update --init --recursive
+
+hugo_install:
+	CGO_ENABLED=1 go install -tags extended github.com/gohugoio/$(HUGO)
 
 dev_server:
 	hugo server

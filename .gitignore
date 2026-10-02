@@ -1,4 +1,8 @@
-# *** Project related
+# Step: Project related
 .idea/
 resources/
 public/
+
+# Step: Macos
+.DS_Store
+__MACOSX/
