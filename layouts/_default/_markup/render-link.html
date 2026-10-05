@@ -1,0 +1,14 @@
+{{- /*
+  Link render hook: open external links in a new tab.
+
+  Every link gets its href from .Destination, so relative, root-relative,
+  anchor and mailto links all work unchanged. Only http(s) destinations are
+  treated as external and get target/rel.
+
+  See README.md in this directory for the background.
+*/ -}}
+{{- $external := or (hasPrefix .Destination "http://") (hasPrefix .Destination "https://") -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  {{- if $external }} target="_blank" rel="noopener noreferrer"{{ end -}}
+>{{ .Text }}</a>
