@@ -8,6 +8,7 @@ HUGO_LATEST ?= $(GOBIN_DIR)/hugo$(HUGO_LATEST_VER)+extended
 HUGO ?= $(HUGO_LATEST)
 
 .PHONY: git_submodules_update \
+	git_local_setup \
 	hugo_install_old \
 	hugo_install_latest \
 	go_install_old \
@@ -18,6 +19,25 @@ HUGO ?= $(HUGO_LATEST)
 	dev_server_with_drafts \
 	new_post \
 	build
+
+# Local-only git settings for this checkout. They live in .git/, so neither
+# repo tracks them and a fresh clone will not have them -- re-run this then.
+# Safe to re-run: both steps are guarded.
+git_local_setup:
+	@if git -C themes/minima remote get-url upstream >/dev/null 2>&1; then \
+		git -C themes/minima remote set-url --push upstream DISABLED; \
+		echo "ok: push to the upstream remote disabled"; \
+	else \
+		echo "skip: no 'upstream' remote in themes/minima (run theme_minima_latest first)"; \
+	fi
+	@GITDIR="$$(git -C themes/minima rev-parse --absolute-git-dir)"; \
+	mkdir -p "$$GITDIR/info"; \
+	if grep -qxF '.idea/' "$$GITDIR/info/exclude" 2>/dev/null; then \
+		echo "ok: .idea/ already excluded in themes/minima"; \
+	else \
+		printf '\n# Local-only: JetBrains project files for this checkout.\n.idea/\n' >> "$$GITDIR/info/exclude"; \
+		echo "ok: .idea/ excluded in themes/minima"; \
+	fi
 
 git_submodules_update:
 	git submodule update --init --recursive
