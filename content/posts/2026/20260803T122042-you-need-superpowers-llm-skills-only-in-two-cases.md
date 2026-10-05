@@ -2,7 +2,6 @@
 title: "You need Superpowers LLM skills only in two cases"
 description: "First, you want to be the top one guy in burning tokens (Meta-style KPIs). Second, you want to ‘copy’ a well-built project: C++ compiler, PyTorch, etc."
 date: 2026-08-03T12:20:42.135Z
-draft: true
 ---
 
 I recently discussed Superpowers skills for Claude Code with a friend, who said they were too verbose, invoked subagents too often, and generated too large implementation proposals and code.

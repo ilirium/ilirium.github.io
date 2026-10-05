@@ -1,7 +1,6 @@
 ---
 title: "Do Frontier AI Labs have monetization beyond paying for tokens?"
 date: 2026-08-05T12:40:06.971Z
-draft: true
 ---
 
 How can AI Labs make money?

@@ -2,7 +2,6 @@
 title: "Will AI replace humans?"
 description: "As someone who has worked in AI development for the past eight years, I’d like to share my perspective."
 date: 2026-07-10T14:19:24.058Z
-draft: true
 ---
 
 Will AI replace humans? As someone who has worked in AI development for the past eight years, I’d like to share my perspective.
@@ -15,4 +14,6 @@ The same pattern played out in the 1980s and 1990s. As computers became widespre
 
 Something similar is happening now, some professions and functions are being automated, while AI grew from nothing into a major field.
 
-Discus on [LinkedIn](https://www.linkedin.com/posts/ilirium_will-ai-replace-humans-as-someone-who-has-share-7481351372781715459-fQta/).
+---
+
+**Discus on** [**LinkedIn**](https://www.linkedin.com/posts/ilirium_will-ai-replace-humans-as-someone-who-has-share-7481351372781715459-fQta/).

@@ -1,7 +1,6 @@
 ---
 title: "If we can predict the next token, can we also predict when a Fable-class model will be released as open source?"
 date: 2026-07-07T13:50:37.273Z
-draft: true
 ---
 
 If we can predict the next token, can we also predict when a Fable-class model will be released as open source?
@@ -17,4 +16,6 @@ Let's wait for some good news from Apple and AMD. Will they be able to release r
 
 Do you already have your own AI box on which you run a model and use it regularly?
 
-Discus on [LinkedIn](https://www.linkedin.com/posts/ilirium_if-we-can-predict-the-next-token-can-we-share-7480256966523801600-Li6h/).
+---
+
+**Discus on** [**LinkedIn**](https://www.linkedin.com/posts/ilirium_if-we-can-predict-the-next-token-can-we-share-7480256966523801600-Li6h/).

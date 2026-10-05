@@ -2,7 +2,6 @@
 title: "My project: Retro Starfield Simulation screensaver port to macOS from Win2K"
 description: "One prompt for the screensaver itself and the rest work to create an uninstaller :)"
 date: 2026-09-15T14:59:36.718Z
-draft: true
 ---
 
 I like coding with agents: it broadens my horizons and skills. I've got a ton of ideas, but the problem is that many of them either require writing huge amounts of code or involve areas I know nothing about—areas that demand an insane amount of boilerplate or knowledge of "under-the-hood" magic. Like writing a small, native macOS GUI app to display an icon and specific data in the menu bar.

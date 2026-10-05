@@ -1,7 +1,6 @@
 ---
 title: "Why is the Airtable acquisition not a SaaS-pocalypse"
-date: 2026-08-06T13:26:15.815Z 
-draft: true
+date: 2026-08-06T13:26:15.815Z
 ---
 
 I just read that Airtable was acquired by Bending Spoons for $1.29 billion. [WSJ said](https://www.wsj.com/tech/airtable-acquisition-is-kick-in-the-gut-for-software-unicorns-and-their-backers-c844ed42): "It is a 'scary signal' for every venture-backed SaaS company serving business-to-business customers." Ha, Airtable is a great example of a No-Code / Low-Code product, it is very niche in SaaS.

@@ -2,7 +2,6 @@
 title: "Frontier AI labs are buying your data for a fraction, they are not subsidizing"
 description: "Do you want to keep your business safe? Do you want to protect your data and your customers? Go for local models. Even for coding agents."
 date: 2026-08-06T06:21:06.992Z
-draft: true
 ---
 
 Data is everything. To keep on track, Frontier AI Labs should feed their models with better, new, unseen data. Where to get them? From their APIs users.

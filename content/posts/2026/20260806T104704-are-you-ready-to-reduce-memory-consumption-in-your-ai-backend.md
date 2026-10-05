@@ -1,10 +1,7 @@
 ---
 title: "Are you ready to reduce memory consumption in your AI backend?"
 date: 2026-08-06T10:47:04.455Z
-draft: true
 ---
-
-20260806T104704-are-you-ready-to-reduce-memory-consumption-in-your-ai-backend
 
 Are you ready to reduce memory consumption in your AI backend? It is a good time to reconsider engineering practices in your company and team. Start doing it.
 

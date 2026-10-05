@@ -1,7 +1,6 @@
 ---
 title: "Can an AI assistant help with legal matters?"
 date: 2026-07-08T11:35:24.656Z
-draft: true
 ---
 
 Can an AI assistant help with legal matters? Yes—but there is an important caveat: the documents it creates are not protected by attorney-client privilege.
@@ -14,4 +13,6 @@ A licensed AI legal agent would likely cost more, but its value may come from th
  
 These legal questions should be addressed primarily by an AI and robotics focused counterpart to the FTC, rather than through legislation alone, because the field is changing so quickly.
 
-Discus on [LinkedIn](https://www.linkedin.com/posts/ilirium_can-an-ai-assistant-help-with-legal-matters-share-7480585327607468032-e0K-/).
+---
+
+**Discus on** [**LinkedIn**](https://www.linkedin.com/posts/ilirium_can-an-ai-assistant-help-with-legal-matters-share-7480585327607468032-e0K-/).

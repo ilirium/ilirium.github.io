@@ -1,7 +1,6 @@
 ---
 title: "Why are LinkedIn influencers bashing Reddit?"
 date: 2026-08-05T15:00:54.860Z
-draft: true
 ---
 
 I've noticed that LinkedIn influencers are bashing Reddit. Why? I don't see much of AI generated content in subreddits that I am participating. Human moderators work well. Authentic people discussions, more open when in LI. Of course, with some trolling and joking, but it's Internet. I like LinkedIn too, but its downside is that many posts look too synthetic, too much optimized for the LI algorithms.

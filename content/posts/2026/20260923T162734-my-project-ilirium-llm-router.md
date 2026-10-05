@@ -2,7 +2,6 @@
 title: "My project: Ilirium LLM Router"
 description: "Router to use different local LLM models and all Anthropic models simultaneously in one Claude Code session. Saving telemetry for observability and a corpus of all raw requests and responses for later analysis."
 date: 2026-09-23T16:27:34.812Z
-draft: true
 ---
 
 Let's imagine: you want to use Claude Code simultaneously with their models and your own local models. Claude Code does not allow you to do this by design. Several weeks ago, I faced this problem. Hmm, I had thought that there should be some open-source project that solves this problem. Yes, and no. There is Claude Code Router. They advertise this function, but due to their bug, it simply doesn't work, ha ha. I tried another solution, LiteLLM. But it's a fucking crazy complex product to configure for such a simple task.
