@@ -1,5 +1,5 @@
 baseURL: https://ilirium.net/
-languageCode: en-us
+locale: en-us
 title: Ilya Kalimulin (Ilirium) personal blog
 copyright: © 2023–∞ Ilya Kalimulin (Ilirium)
 theme: minima
