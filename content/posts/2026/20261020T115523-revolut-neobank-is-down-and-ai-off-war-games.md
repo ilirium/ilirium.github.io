@@ -1,6 +1,6 @@
 ---
 title: "Revolut neobank is down"
-description: "Should a company conduct "war games" simulating the shutdown of its data center and all available AI assistants?"
+description: "Should a company conduct war games simulating the shutdown of its data center and all available AI assistants?"
 date: 2026-10-20T11:55:23.208Z
 ---
 
